@@ -2,6 +2,8 @@ const { Circle } = require("../lib/shapes.js");
 const { Triangle } = require("../lib/shapes.js");
 const { Square } = require("../lib/shapes.js");
 
+
+// ==========================circle=======================================================
 describe("For Circle", () => {
     // ====================test values=====================
     const shapeColor = "blue";
@@ -26,6 +28,7 @@ describe("For Circle", () => {
     })
 })
 
+// ====================================circle==================================================
 describe("For Triangle", () => {
     // ================test values=====================
     const shapeColor = "blue";
@@ -50,6 +53,7 @@ describe("For Triangle", () => {
     })
 })
 
+// ====================================square==================================================
 describe("For Square", () => {
     // =======================test values======================
     const shapeColor = "blue";
