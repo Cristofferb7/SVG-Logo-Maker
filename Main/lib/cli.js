@@ -50,9 +50,34 @@ class CLI {
 
           console.log(svgContent)
 
+          fs.writeFile("./output/sample.svg", svgContent, function() {
+            console.log("Circle has been generated!");
+          })
+
         } else if(answers.shape == "triangle") {
 
+          const newObject = new Triangle(answers.shapeColor, answers.textColor, answers.text);
+
+          const svgContent = newObject.generateSVG()
+
+          console.log(svgContent)
+
+          fs.writeFile("./output/sample.svg", svgContent, function() {
+            console.log("Triangle has been generated!");
+          })
+
+
         } else if(answers.shape == "square") {
+
+          const newObject = new Square(answers.shapeColor, answers.textColor, answers.text);
+
+          const svgContent = newObject.generateSVG()
+
+          console.log(svgContent)
+
+          fs.writeFile("./output/sample.svg", svgContent, function() {
+            console.log("Square has been generated!");
+          })
           
         }
 
