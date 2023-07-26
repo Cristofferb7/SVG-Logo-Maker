@@ -1,8 +1,7 @@
 const inquirer = require('inquirer');
-const { join } = require('path');
-const { writeFile } = require('fs/promises');
-const { createDocument } = require('./document');
-
+const fs = require('fs');
+const path = require('path');
+const { Circle, Triangle, Square } = require(); //require file//
 class CLI {
   constructor() {
     this.title = '';
