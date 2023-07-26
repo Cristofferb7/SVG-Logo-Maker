@@ -3,7 +3,7 @@ const { Triangle } = require("../lib/shapes.js");
 const { Square } = require("../lib/shapes.js");
 
 describe("For Circle", () => {
-    // test values
+    // ====================test values=====================
     const shapeColor = "blue";
     const text = "SVG";
     const textColor = "white";
@@ -27,7 +27,7 @@ describe("For Circle", () => {
 })
 
 describe("For Triangle", () => {
-    // test values
+    // ================test values=====================
     const shapeColor = "blue";
     const text = "SVG";
     const textColor = "white";
@@ -51,7 +51,7 @@ describe("For Triangle", () => {
 })
 
 describe("For Square", () => {
-    // test values
+    // =======================test values======================
     const shapeColor = "blue";
     const text = "SVG";
     const textColor = "white";

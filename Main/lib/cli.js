@@ -39,6 +39,8 @@ class CLI {
         },
       ])
     
+      // ================logs answers===============================
+
       .then((answers) => {
         console.log(answers);
 
@@ -81,7 +83,7 @@ class CLI {
           
         }
 
-
+// ===================== catch error ===========================
       })
       .catch((err) => {
         console.log(err);
